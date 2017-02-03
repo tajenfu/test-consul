@@ -1,0 +1,7 @@
+#spring:
+#  cloud:
+#    consul:
+#      discovery:
+#        service-name: TestConsulApplication
+
+debug: false

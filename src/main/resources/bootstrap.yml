@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      config:
+        enabled: true
+        prefix: config
+        default-context: TestConsulApplication
+        profile-separator: '::'
+        watch:
+          enabled: true
+      discovery:
+        service-name: TestConsulApplication
+
+
