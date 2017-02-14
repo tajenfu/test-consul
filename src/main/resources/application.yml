@@ -4,4 +4,5 @@
 #      discovery:
 #        service-name: TestConsulApplication
 
+host: 8080
 debug: false
